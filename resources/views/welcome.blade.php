@@ -1,4 +1,13 @@
 @extends('Layouts.App')
 @section('content')
-
+    @include('partials.nav')
+    @include('partials.header')
+    @include('partials.service')
+    @include('partials.portofolio')
+    @include('partials.about')
+    @include('partials.team')
+    @include('partials.client')
+    @include('partials.contact')
+    @include('partials.footer')
+    @include('partials.modals')
 @endsection
