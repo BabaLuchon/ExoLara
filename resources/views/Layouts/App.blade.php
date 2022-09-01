@@ -22,25 +22,13 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
-
+  @vite(['resources/js/app.js'])
 </head>
 
 <body id="page-top">
 
     @yield('content')
 
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
